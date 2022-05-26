@@ -7,10 +7,12 @@
 	left: 50%;
 	margin: -150px 0 0 -150px;
 	border-style: solid;
+	padding: 15px 15px 15px 15px;
 
 }
 #nom {
 	color: lightgray;
+	
 }
 #mail {
 	color: blue;	
