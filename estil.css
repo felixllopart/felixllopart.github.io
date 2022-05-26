@@ -1,12 +1,18 @@
+#contacte {
+	position: absolute;
+	background-color: darkgray;
+	width: 300px;
+	height: 100px;
+	top: 50%;
+	left: 50%;
+	margin: -150px 0 0 -150px;
+	border-style: solid;
+
+}
 #nom {
 	color: lightgray;
 }
 #mail {
 	color: blue;	
 }
-#contacte {
-	background-color: darkgray;
-	width: 300px;
-	height: 100px;
 
-}
