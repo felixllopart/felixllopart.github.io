@@ -6,8 +6,8 @@
     <title>Fèlix Llopart</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
             display: flex;
             justify-content: center;
             align-items: center;
@@ -16,45 +16,67 @@
         }
         .card {
             background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
             text-align: center;
-            max-width: 300px;
+            max-width: 320px;
+            width: 90%;
+        }
+        /* Estils per a la foto de perfil */
+        .profile-pic {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+            border: 3px solid #0077b5;
+            padding: 3px;
         }
         .card h2 {
-            margin: 0 0 10px;
-            font-size: 24px;
+            margin: 10px 0 5px;
+            font-size: 22px;
+            color: #333;
         }
         .card p {
-            margin: 5px 0;
-            font-size: 16px;
-            color: #555;
+            margin: 8px 0;
+            font-size: 15px;
         }
+        /* Estil per als enllaços com a botons suaus */
         .card a {
-            display: inline-block;
+            display: block;
             margin-top: 10px;
-            padding: 8px 12px;
-            color: white;
-            background-color: #0077b5;
+            padding: 10px;
+            color: #0077b5;
             text-decoration: none;
-            border-radius: 5px;
+            border-radius: 8px;
             font-size: 14px;
+            background-color: #f0f7ff;
+            transition: all 0.3s ease;
+            border: 1px solid transparent;
         }
         .card a:hover {
-            background-color: #005f8d;
+            background-color: #0077b5;
+            color: white;
+            transform: translateY(-2px);
+        }
+        
+        .mail-link {
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
 
     <div class="card">
+        <img src="felix.png" alt="Fèlix Llopart" class="profile-pic">
+        
         <h2>Fèlix Llopart Miquel</h2>
-        <p><a href="mailto:felixllopart@gmail.com">felixllopart@gmail.com</a></p>
-        <p><a rel="me" href="https://mastodont.cat/@felixllopart" target="_blank">@felixllopart@mastodont.cat</a></p>
-        <p><a href="https://linktr.ee/felixllopart" target="_blank">linktr.ee/felixllopart</a></p>
+        
+        <a href="mailto:felixllopart@gmail.com" class="mail-link">felixllopart@gmail.com</a>
+        <a rel="me" href="https://mastodont.cat/@felixllopart" target="_blank">@felixllopart@mastodont.cat</a>
+        <a href="https://linktr.ee/felixllopart" target="_blank">linktr.ee/felixllopart</a>
     </div>
 
 </body>
 </html>
-
